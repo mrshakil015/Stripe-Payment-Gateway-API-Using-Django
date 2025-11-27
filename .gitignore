@@ -1,0 +1,99 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+migrations/
+staticfiles/
+local_settings.py
+.env
+*.sqlite3
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Python
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+
+# pipenv
+Pipfile.lock
+
+# virtualenv
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# pytest
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# celery beat schedule files
+celerybeat-schedule
+celerybeat.pid
+
+# Gunicorn
+gunicorn.pid
+
+# node modules (if using frontend tools)
+node_modules/
+
+# yarn
+yarn.lock
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Temporary files
+*.~ 
+*.orig
+*.rej
+*.swo
+*.swn
+*.swo
+*.swn
+
+# Ignore all migration files and folders except __init__.py
+**/migrations/
+!**/migrations/__init__.py
